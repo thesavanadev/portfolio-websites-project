@@ -39,7 +39,7 @@ const HeroSection = () => {
 					</p>
 
 					<a href="#about">
-						<MagicButton title="Show my work" icon={<FaLocationArrow />} position="right" />
+						<MagicButton title="SHOW MY WORK" icon={<FaLocationArrow />} position="right" />
 					</a>
 				</div>
 			</div>
