@@ -23,9 +23,11 @@ export const metadata: Metadata = {
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
-			<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
-				<body className={cn("min-h-screen bg-background font-sans antialiased", fontSans.variable)}>{children}</body>
-			</ThemeProvider>
+			<body className={cn("font-sans antialiased", fontSans.variable)}>
+				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
+					{children}
+				</ThemeProvider>
+			</body>
 		</html>
 	);
 };
