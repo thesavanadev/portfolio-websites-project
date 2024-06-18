@@ -1,7 +1,7 @@
-# [XXXXX XXXXX XXXXX] Project
+# Protfolio Project
 
-Welcome to the private repository for [XXXXX XXXXX XXXXX] project. This repository houses the codebase for the dynamic and interactive website,
-showcasing our commitment to excellence in web development.
+Welcome to the repository for Portfolio project. This repository houses the codebase for the dynamic and interactive website,
+showcasing my commitment to excellence in web development.
 
 ## Table of Contents
 
@@ -14,7 +14,7 @@ showcasing our commitment to excellence in web development.
 
 ## Introduction
 
-[XXXXX XXXXX XXXXX] is dedicated to transforming digital experiences. This website serves as a testament to our skills and commitment to
+The Portfolio Project is dedicated to transforming digital experiences. This website serves as a testament to our skills and commitment to
 delivering top-notch web solutions.
 
 ## Features
@@ -26,9 +26,9 @@ delivering top-notch web solutions.
 
 ## Tech Stack
 
-- **Frontend:** Next.js version 14, TypeScript, Tailwind CSS and Shadcn UI
-- **Backend:** GraphQL content management system hosted by Hygraph
-- **Deployment:** Vercel
+- **Frontend:** Next.js version 14, TypeScript, Tailwind CSS and Aceternity UI.
+- **Backend:** Content management system hosted on Payload CMS.
+- **Deployment:** Google Cloud
 
 ## Getting Started
 
@@ -44,4 +44,4 @@ We will eventually welcome contributions!.
 
 This project is licensed under the MIT License.
 
-Thank you for being a part of the [XXXXX XXXXX XXXXX] website project! 🚀✨
+Thank you for being a part of the Portfolio project website! 🚀✨

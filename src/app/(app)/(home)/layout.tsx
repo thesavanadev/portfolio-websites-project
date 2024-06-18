@@ -1,12 +1,8 @@
 const HomeLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
-		<div className="flex h-screen flex-col">
-			<header>Header Section</header>
-
-			<main>{children}</main>
-
-			<footer className="mt-auto">Footer Section</footer>
-		</div>
+		<main className="bg-black-100 relative mx-auto flex flex-col items-center justify-center overflow-hidden px-5 sm:px-10">
+			{children}
+		</main>
 	);
 };
 
