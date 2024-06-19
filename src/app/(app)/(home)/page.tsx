@@ -3,6 +3,7 @@ import { navigationItems } from "@/lib/data";
 import { FloatingNavigationBar } from "@/components/ui/floating-navigation-bar";
 import HeroSection from "@/components/hero-section";
 import GridSection from "@/components/grid-section";
+import RecentProjectsSection from "@/components/recent-projects-section";
 
 const HomePage = () => {
 	return (
@@ -13,6 +14,8 @@ const HomePage = () => {
 				<HeroSection />
 
 				<GridSection />
+
+				<RecentProjectsSection />
 			</section>
 		</article>
 	);
