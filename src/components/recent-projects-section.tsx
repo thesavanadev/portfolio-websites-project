@@ -21,7 +21,7 @@ const RecentProjectsSection = () => {
 							className="flex h-[25rem] w-[80vw] items-center justify-center sm:w-96 lg:min-h-[32.5rem]"
 							key={item.id}
 						>
-							<PinContainer title="/ui.aceternity.com" href="https://twitter.com/mannupaaji">
+							<PinContainer title="/www.s3interdev.com" href="https://twitter.com/theSavanahDev">
 								<div className="relative mb-10 flex h-[20vh] w-[80vw] items-center justify-center overflow-hidden sm:w-96 lg:h-[30vh]">
 									<div
 										className="relative h-full w-full overflow-hidden lg:rounded-3xl"
