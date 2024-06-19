@@ -1,7 +1,8 @@
 import { navigationItems } from "@/lib/data";
 
-import HeroSection from "@/components/hero-section";
 import { FloatingNavigationBar } from "@/components/ui/floating-navigation-bar";
+import HeroSection from "@/components/hero-section";
+import GridSection from "@/components/grid-section";
 
 const HomePage = () => {
 	return (
@@ -10,6 +11,8 @@ const HomePage = () => {
 				<FloatingNavigationBar navigationItems={navigationItems} />
 
 				<HeroSection />
+
+				<GridSection />
 			</section>
 		</article>
 	);
