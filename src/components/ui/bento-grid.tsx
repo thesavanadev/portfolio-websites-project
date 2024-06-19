@@ -48,8 +48,9 @@ export const BentoGridItem = ({
 	titleClassName?: string;
 	spareImg?: string;
 }) => {
-	const leftLists = ["ReactJS", "Express", "Typescript"];
-	const rightLists = ["VueJS", "NuxtJS", "GraphQL"];
+	const leftLists = ["ReactJS", "NextJS", "Typescript"];
+
+	const rightLists = ["MongoDB", "Prisma", "Cloudinary"];
 
 	const [copied, setCopied] = useState(false);
 
@@ -87,6 +88,7 @@ export const BentoGridItem = ({
 				<div className="absolute h-full w-full">
 					{img && <img src={img} alt={img} className={cn(imgClassName, "object-cover object-center")} />}
 				</div>
+
 				<div className={`absolute -bottom-5 right-0 ${id === 5 && "w-full opacity-80"} `}>
 					{spareImg && (
 						<img
@@ -97,6 +99,7 @@ export const BentoGridItem = ({
 						/>
 					)}
 				</div>
+
 				{id === 6 && (
 					/* add background animation, remove the p tag */
 					<BackgroundGradientAnimation>
@@ -136,6 +139,7 @@ export const BentoGridItem = ({
 								))}
 								<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center lg:px-3 lg:py-4"></span>
 							</div>
+
 							<div className="flex flex-col gap-3 md:gap-3 lg:gap-8">
 								<span className="rounded-lg bg-[#10132E] px-3 py-4 text-center lg:px-3 lg:py-4"></span>
 								{rightLists.map((item, i) => (
@@ -162,7 +166,7 @@ export const BentoGridItem = ({
 							</div>
 
 							<MagicButton
-								title={copied ? "Email is Copied!" : "Copy my email address"}
+								title={copied ? "EMAIL COPIED!" : "COPY MY EMAIL"}
 								icon={<IoCopyOutline />}
 								position="left"
 								handleClick={handleCopy}
