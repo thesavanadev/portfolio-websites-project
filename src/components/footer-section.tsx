@@ -23,7 +23,7 @@ const FooterSection = () => {
 			</div>
 
 			<div className="mt-16 flex flex-col items-center justify-between md:flex-row">
-				<p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Michael Owuor</p>
+				<p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Michael</p>
 
 				<div className="mt-5 flex items-center gap-6 md:mt-0 md:gap-3">
 					{socialMedia.map((info) => (
