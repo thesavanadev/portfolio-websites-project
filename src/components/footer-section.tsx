@@ -8,11 +8,6 @@ import MagicButton from "@/components/ui/magic-button";
 const FooterSection = () => {
 	return (
 		<footer id="contact" className="w-full pb-10 pt-20">
-			{/* background grid */}
-			<div className="absolute -bottom-72 left-0 min-h-96 w-full">
-				<img src="/footer-grid.svg" alt="grid" className="h-full w-full opacity-50" />
-			</div>
-
 			<div className="flex flex-col items-center">
 				<h1 className="heading lg:max-w-[45vw]">
 					Ready to take <span className="text-purple">your</span> digital presence to the next level?
@@ -22,7 +17,7 @@ const FooterSection = () => {
 					Reach out to me today and let&apos;s discuss how I can help you achieve your goals.
 				</p>
 
-				<a href="mailto:contact@jsmastery.pro">
+				<a href="mailto:hello@s3interdev.com">
 					<MagicButton title="Let's get in touch" icon={<FaLocationArrow />} position="right" />
 				</a>
 			</div>
@@ -30,7 +25,7 @@ const FooterSection = () => {
 			<div className="mt-16 flex flex-col items-center justify-between md:flex-row">
 				<p className="text-sm font-light md:text-base md:font-normal">Copyright © 2024 Michael Owuor</p>
 
-				<div className="flex items-center gap-6 md:gap-3">
+				<div className="mt-5 flex items-center gap-6 md:mt-0 md:gap-3">
 					{socialMedia.map((info) => (
 						<div
 							key={info.id}
