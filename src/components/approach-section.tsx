@@ -5,7 +5,7 @@ import { AnimatePresence, motion } from "framer-motion";
 
 import { CanvasRevealEffect } from "@/components/ui/canvas-reveal-effect";
 
-const Approach = () => {
+const ApproachSection = () => {
 	return (
 		<section id="approach" className="w-full py-20">
 			<h1 className="heading">
@@ -49,6 +49,7 @@ const Approach = () => {
 					{/* remove this one */}
 					{/* <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" /> */}
 				</Card>
+
 				<Card
 					title="Development & Launch"
 					icon={<AceternityIcon order="Phase 3" />}
@@ -67,7 +68,7 @@ const Approach = () => {
 	);
 };
 
-export default Approach;
+export default ApproachSection;
 
 const Card = ({
 	title,

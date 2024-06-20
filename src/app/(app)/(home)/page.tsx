@@ -7,6 +7,7 @@ import RecentProjectsSection from "@/components/recent-projects-section";
 import ClientsTestimonialSection from "@/components/clients-testimonial-section";
 import WorkExperienceSection from "@/components/work-experience-section";
 import ApproachSection from "@/components/approach-section";
+import FooterSection from "@/components/footer-section";
 
 const HomePage = () => {
 	return (
@@ -24,6 +25,8 @@ const HomePage = () => {
 			<WorkExperienceSection />
 
 			<ApproachSection />
+
+			<FooterSection />
 		</article>
 	);
 };
