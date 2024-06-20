@@ -22,6 +22,7 @@ export const InfiniteMovingCards = ({
 	className?: string;
 }) => {
 	const containerRef = React.useRef<HTMLDivElement>(null);
+
 	const scrollerRef = React.useRef<HTMLUListElement>(null);
 
 	useEffect(() => {
@@ -115,6 +116,7 @@ export const InfiniteMovingCards = ({
 								<div className="me-3">
 									<img src="/profile.svg" alt="profile" />
 								</div>
+
 								<span className="flex flex-col gap-1">
 									{/* change text color, font-normal to font-bold, text-xl */}
 									<span className="text-xl font-bold leading-[1.6] text-white">{item.name}</span>

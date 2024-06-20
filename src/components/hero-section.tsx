@@ -6,7 +6,7 @@ import { TextGenerateEffect } from "@/components/ui/text-generate-effect";
 
 const HeroSection = () => {
 	return (
-		<div className="pb-20 pt-36">
+		<section id="hero" className="pb-20 pt-36">
 			<div>
 				<Spotlight className="-left-10 -top-40 h-screen md:-left-32 md:-top-20" fill="white" />
 
@@ -15,11 +15,11 @@ const HeroSection = () => {
 				<Spotlight className="left-80 top-28 h-[80vh] w-[50vw]" fill="blue" />
 			</div>
 
-			<div className="dark:bg-black-100 dark:bg-grid-white/[0.03] bg-grid-black-100/[0.2] absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white">
+			<div className="absolute left-0 top-0 flex h-screen w-full items-center justify-center bg-white bg-grid-black-100/[0.2] dark:bg-black-100 dark:bg-grid-white/[0.03]">
 				{/* radial gradient for the container to give a faded look */}
 				<div
 					/* change the bg to bg-black-100, so it matches the bg color and will blend in */
-					className="dark:bg-black-100 pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)]"
+					className="pointer-events-none absolute inset-0 flex items-center justify-center bg-white [mask-image:radial-gradient(ellipse_at_center,transparent_20%,black)] dark:bg-black-100"
 				/>
 			</div>
 
@@ -43,7 +43,7 @@ const HeroSection = () => {
 					</a>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

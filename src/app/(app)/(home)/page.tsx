@@ -4,22 +4,23 @@ import { FloatingNavigationBar } from "@/components/ui/floating-navigation-bar";
 import HeroSection from "@/components/hero-section";
 import GridSection from "@/components/grid-section";
 import RecentProjectsSection from "@/components/recent-projects-section";
-import ClientsTestimonials from "@/components/clients-testimonials";
+import ClientsTestimonialSection from "@/components/clients-testimonial-section";
+import WorkExperienceSection from "@/components/work-experience-section";
 
 const HomePage = () => {
 	return (
-		<article>
-			<section className="w-full max-w-7xl">
-				<FloatingNavigationBar navigationItems={navigationItems} />
+		<article className="w-full max-w-7xl">
+			<FloatingNavigationBar navigationItems={navigationItems} />
 
-				<HeroSection />
+			<HeroSection />
 
-				<GridSection />
+			<GridSection />
 
-				<RecentProjectsSection />
+			<RecentProjectsSection />
 
-				<ClientsTestimonials />
-			</section>
+			<ClientsTestimonialSection />
+
+			<WorkExperienceSection />
 		</article>
 	);
 };
