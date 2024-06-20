@@ -6,6 +6,7 @@ import GridSection from "@/components/grid-section";
 import RecentProjectsSection from "@/components/recent-projects-section";
 import ClientsTestimonialSection from "@/components/clients-testimonial-section";
 import WorkExperienceSection from "@/components/work-experience-section";
+import ApproachSection from "@/components/approach-section";
 
 const HomePage = () => {
 	return (
@@ -21,6 +22,8 @@ const HomePage = () => {
 			<ClientsTestimonialSection />
 
 			<WorkExperienceSection />
+
+			<ApproachSection />
 		</article>
 	);
 };

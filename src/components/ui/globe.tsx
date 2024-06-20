@@ -2,9 +2,10 @@
 
 import { useEffect, useRef, useState } from "react";
 import { Color, Scene, Fog, PerspectiveCamera, Vector3 } from "three";
-import { useThree, Object3DNode, Canvas, extend } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
+import { useThree, Object3DNode, Canvas, extend } from "@react-three/fiber";
 import ThreeGlobe from "three-globe";
+
 import countries from "@/lib/json/globe.json";
 
 declare module "@react-three/fiber" {
@@ -16,9 +17,7 @@ declare module "@react-three/fiber" {
 extend({ ThreeGlobe });
 
 const RING_PROPAGATION_SPEED = 3;
-
 const aspect = 1.2;
-
 const cameraZ = 300;
 
 type Position = {
@@ -119,7 +118,9 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
 	const _buildData = () => {
 		const arcs = data;
+
 		let points = [];
+
 		for (let i = 0; i < arcs.length; i++) {
 			const arc = arcs[i];
 			const rgb = hexToRgb(arc.color) as { r: number; g: number; b: number };
@@ -205,6 +206,7 @@ export function Globe({ globeConfig, data }: WorldProps) {
 
 		const interval = setInterval(() => {
 			if (!globeRef.current || !globeData) return;
+
 			numbersOfRings = genRandomNumbers(0, data.length, Math.floor((data.length * 4) / 5));
 
 			globeRef.current.ringsData(globeData.filter((d, i) => numbersOfRings.includes(i)));
@@ -229,7 +231,7 @@ export function WebGLRendererConfig() {
 		gl.setPixelRatio(window.devicePixelRatio);
 		gl.setSize(size.width, size.height);
 		gl.setClearColor(0xffaaff, 0);
-	}, [gl, size, size.width, size.height]);
+	});
 
 	return null;
 }
@@ -237,9 +239,7 @@ export function WebGLRendererConfig() {
 export function World(props: WorldProps) {
 	const { globeConfig } = props;
 	const scene = new Scene();
-
 	scene.fog = new Fog(0xffffff, 400, 2000);
-
 	return (
 		<Canvas scene={scene} camera={new PerspectiveCamera(50, aspect, 180, 1800)}>
 			<WebGLRendererConfig />
@@ -264,7 +264,6 @@ export function World(props: WorldProps) {
 
 export function hexToRgb(hex: string) {
 	var shorthandRegex = /^#?([a-f\d])([a-f\d])([a-f\d])$/i;
-
 	hex = hex.replace(shorthandRegex, function (m, r, g, b) {
 		return r + r + g + g + b + b;
 	});
@@ -281,7 +280,6 @@ export function hexToRgb(hex: string) {
 
 export function genRandomNumbers(min: number, max: number, count: number) {
 	const arr = [];
-
 	while (arr.length < count) {
 		const r = Math.floor(Math.random() * (max - min)) + min;
 		if (arr.indexOf(r) === -1) arr.push(r);
