@@ -12,8 +12,8 @@ importers:
         specifier: ^1.1.0
         version: 1.1.0(@types/react@18.3.3)(react@18.3.1)
       '@react-three/drei':
-        specifier: ^9.108.4
-        version: 9.108.4(@react-three/fiber@8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1))(@types/react@18.3.3)(@types/three@0.166.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)
+        specifier: ^9.109.1
+        version: 9.109.1(@react-three/fiber@8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1))(@types/react@18.3.3)(@types/three@0.166.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)
       '@react-three/fiber':
         specifier: ^8.16.8
         version: 8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)
@@ -30,11 +30,11 @@ importers:
         specifier: ^2.1.1
         version: 2.1.1
       framer-motion:
-        specifier: ^11.3.4
-        version: 11.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: ^11.3.8
+        version: 11.3.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       lucide-react:
-        specifier: ^0.408.0
-        version: 0.408.0(react@18.3.1)
+        specifier: ^0.414.0
+        version: 0.414.0(react@18.3.1)
       mini-svg-data-uri:
         specifier: ^1.4.4
         version: 1.4.4
@@ -550,8 +550,8 @@ packages:
   '@react-spring/types@9.6.1':
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
 
-  '@react-three/drei@9.108.4':
-    resolution: {integrity: sha512-YyPVG7+np6G8CJRVVdEfgK+bou7cvp8v9R7k4NSHsoi5EokFPG03tkCjniRiz5SzQyN+E8kCiMogI9oZaop5+g==}
+  '@react-three/drei@9.109.1':
+    resolution: {integrity: sha512-tkZW1lpkGW0jg4bb3yiaQgM9gkpf6b2osleQnQu55VC8UFDDMIX+fNB8TTQ9fqhA/lpQ7UszM7XSUGak1xYjvg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -1562,8 +1562,8 @@ packages:
   frame-ticker@1.0.3:
     resolution: {integrity: sha512-E0X2u2JIvbEMrqEg5+4BpTqaD22OwojJI63K7MdKHdncjtAhGRbCR8nJCr2vwEt9NWBPCPcu70X9smPviEBy8Q==}
 
-  framer-motion@11.3.4:
-    resolution: {integrity: sha512-LC+luwNmz4zEg0AU0rol3yLUFKSJ9GDmIyvigXBAwEbUBG59EWmcRQ2Xh+0py7IkmvWxFUH0TN42v1Dda8xgUg==}
+  framer-motion@11.3.8:
+    resolution: {integrity: sha512-1D+RDTsIp4Rz2dq/oToqSEc9idEQwgBRQyBq4rGpFba+0Z+GCbj9z1s0+ikFbanWe3YJ0SqkNlDe08GcpFGj5A==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
@@ -1996,8 +1996,8 @@ packages:
   lru-cache@5.1.1:
     resolution: {integrity: sha512-KpNARQA3Iwv+jTA0utUVVbrh+Jlrr1Fv0e56GGzAFOXN7dk/FviaDW8LHmK52DlcH4WP2n6gI8vN1aesBFgo9w==}
 
-  lucide-react@0.408.0:
-    resolution: {integrity: sha512-8kETAAeWmOvtGIr7HPHm51DXoxlfkNncQ5FZWXR+abX8saQwMYXANWIkUstaYtcKSo/imOe/q+tVFA8ANzdSVA==}
+  lucide-react@0.414.0:
+    resolution: {integrity: sha512-Krr/MHg9AWoJc52qx8hyJ64X9++JNfS1wjaJviLM1EP/68VNB7Tv0VMldLCB1aUe6Ka9QxURPhQm/eB6cqOM3A==}
     peerDependencies:
       react: ^16.5.1 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
@@ -3524,7 +3524,7 @@ snapshots:
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.108.4(@react-three/fiber@8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1))(@types/react@18.3.3)(@types/three@0.166.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)':
+  '@react-three/drei@9.109.1(@react-three/fiber@8.16.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1))(@types/react@18.3.3)(@types/three@0.166.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.166.1)':
     dependencies:
       '@babel/runtime': 7.24.8
       '@mediapipe/tasks-vision': 0.10.8
@@ -4876,7 +4876,7 @@ snapshots:
     dependencies:
       simplesignal: 2.1.7
 
-  framer-motion@11.3.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+  framer-motion@11.3.8(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
     dependencies:
       tslib: 2.6.3
     optionalDependencies:
@@ -5300,7 +5300,7 @@ snapshots:
     dependencies:
       yallist: 3.1.1
 
-  lucide-react@0.408.0(react@18.3.1):
+  lucide-react@0.414.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
