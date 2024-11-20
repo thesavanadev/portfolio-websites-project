@@ -1,6 +1,6 @@
-# Protfolio Project
+# Protfolio Websites Project
 
-Welcome to the repository for Portfolio project. This repository houses the codebase for the dynamic and interactive website,
+Welcome to the repository for Portfolio websites project. This repository houses the codebase for the dynamic and interactive website,
 showcasing my commitment to excellence in web development.
 
 ## Table of Contents
@@ -14,7 +14,7 @@ showcasing my commitment to excellence in web development.
 
 ## Introduction
 
-The Portfolio Project is dedicated to transforming digital experiences. This website serves as a testament to our skills and commitment to
+The Portfolio Websites Project is dedicated to transforming digital experiences. This website serves as a testament to our skills and commitment to
 delivering top-notch web solutions.
 
 ## Features
