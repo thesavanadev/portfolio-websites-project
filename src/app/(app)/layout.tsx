@@ -14,15 +14,19 @@ const fontSans = FontSans({
 
 export const metadata: Metadata = {
 	title: {
-		default: "Michael's Portfolio",
+		default: "Michael's Sample Portfolio",
 		template: "%s | Michael Owuor",
 	},
-	description: "A modern and minimalist portfolio by Michael Owuor.",
+	description: "A modern and minimalist sample portfolio by Michael Owuor.",
 };
 
 const RootLayout = ({ children }: { children: React.ReactNode }) => {
 	return (
 		<html lang="en">
+			<head>
+				<link href="/favicon.svg" rel="icon" type="image/svg+xml" />
+			</head>
+
 			<body className={cn("font-sans antialiased", fontSans.variable)}>
 				<ThemeProvider attribute="class" defaultTheme="dark" enableSystem disableTransitionOnChange>
 					{children}
