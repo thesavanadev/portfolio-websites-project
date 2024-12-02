@@ -1,5 +1,5 @@
 import { Inter as FontSans } from "next/font/google";
-import { ThemeProvider } from "@/lib/providers/theme-provider";
+import { ThemeProvider } from "@/components/theme-provider";
 
 import type { Metadata } from "next";
 
