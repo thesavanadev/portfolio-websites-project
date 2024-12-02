@@ -1,3 +1,4 @@
+import { ReactNode } from "react";
 import { Inter as FontSans } from "next/font/google";
 import { ThemeProvider } from "@/components/theme-provider";
 
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
 	description: "A modern and minimalist sample portfolio by Michael Owuor.",
 };
 
-const RootLayout = ({ children }: { children: React.ReactNode }) => {
+const RootLayout = ({ children }: { children: ReactNode }) => {
 	return (
 		<html lang="en">
 			<head>
