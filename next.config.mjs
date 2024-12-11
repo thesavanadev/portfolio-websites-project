@@ -24,6 +24,11 @@ export default withSentryConfig(nextConfig, {
 	// side errors will fail.
 	// tunnelRoute: "/monitoring",
 
+	// Disables the fetching of source maps from remote URLs
+	sourcemaps: {
+		disable: true,
+	},
+
 	// Hides source maps from generated client bundles
 	hideSourceMaps: true,
 
