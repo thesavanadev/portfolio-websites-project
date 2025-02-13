@@ -1,5 +1,3 @@
-[![Netlify Status](https://api.netlify.com/api/v1/badges/848c5efb-4ad5-436a-8585-35b330bca72f/deploy-status)](https://app.netlify.com/sites/portfolio-websites-project/deploys)
-
 # Protfolio Websites Project
 
 Welcome to the repository for Portfolio websites project. This repository houses the codebase for the dynamic and
@@ -30,7 +28,7 @@ our skills and commitment to delivering top-notch web solutions.
 
 - **Frontend:** Next.js version 14, TypeScript, Tailwind CSS and Aceternity UI.
 - **Backend:** Content management system hosted on Payload CMS.
-- **Deployment:** Google Cloud
+- **Deployment:** Vercel
 
 ## Getting Started
 
