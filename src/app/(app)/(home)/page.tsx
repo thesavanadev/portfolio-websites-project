@@ -9,7 +9,7 @@ import WorkExperienceSection from "@/components/work-experience-section";
 import ApproachSection from "@/components/approach-section";
 import FooterSection from "@/components/footer-section";
 
-const HomePage = () => {
+export default function HomePage() {
 	return (
 		<article className="w-full max-w-7xl">
 			<FloatingNavigationBar navigationItems={navigationItems} />
@@ -29,6 +29,4 @@ const HomePage = () => {
 			<FooterSection />
 		</article>
 	);
-};
-
-export default HomePage;
+}
